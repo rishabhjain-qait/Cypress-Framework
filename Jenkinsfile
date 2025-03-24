@@ -99,11 +99,11 @@ pipeline {
        }
        
        //This deletes any older xml results files present in the directory
-       stage('Stage 3 - Clearing old reports') {
-           steps {
-               sh "npm run report:pre"
-           }
-       }
+       // stage('Stage 3 - Clearing old reports') {
+           // steps {
+               // sh "npm run report:pre"
+           // }
+       // }
        
        stage('Stage 4 - Running cypress e2e Tests') {
             //For recording tests on Cypress Cloud Dashboard, you need to set these environment variables
