@@ -2,7 +2,7 @@ import AccountPage from "../pages/AccountPage";
 import BasePage from "../pages/BasePage";
 import LoginPage from "../pages/LoginPage";
 
-describe("Success and Fail login flow", { tags: ['@Login', '@regression'] }, () => {
+describe("Success and Fail login flow Test Suite", { tags: ['@Login', '@regression'] }, () => {
 
     let basePage;
 
